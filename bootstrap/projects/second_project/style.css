@@ -1,0 +1,17 @@
+body{
+	background: url(pexels-photo-198285.jpeg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Press Start 2P', cursive;
+
+}
+.rowHeight{
+	height: 475px;
+}
+h1{
+	color: white;
+	font-size: 1.2em;
+}
+.bg{
+	background-color: #2ecc71;
+	opacity: 0.8
+}

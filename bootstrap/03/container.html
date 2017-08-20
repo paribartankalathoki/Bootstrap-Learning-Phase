@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-C0mpatible" content="ie=edge">
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+	<!-- 	this is the browser css that has given us basically to extract same css -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+	<title>Document</title>
+<style>
+	.green{
+		background: blue;
+		height: 100vh;
+	}
+/*xs*/
+@media (max-width: 200px){
+	.green{
+		background: yellow;
+		height: 100vh;
+	}
+
+}
+/*sm*/
+@media (min-width: 201) and (max-width: 300px){
+	.green{
+		background: red;
+		height: 100vh;
+	}
+}
+/*md*/
+@media (min-width: 301px) and (max-width: 460px){
+	.green{
+		background: #c1c1c1;
+		height: 100vh;
+	}
+}
+/*lg*/
+@media (min-width: 461px) and (max-width: 600px){
+	.green{
+		background: orange;
+		height: 100vh;
+	}
+}
+/*xl*/
+@media (min-width: 795px){
+	.green{
+		background: pink;
+		height: 100vh;
+	}
+}
+
+</style>
+
+</head>
+<body>
+	<h1>Lorem ispum dolor sit amet.</h1>	
+
+	<div class="container-fluid green">Hello!</div>
+</body>
+</html>
